@@ -6,7 +6,7 @@ export default function App() {
     const [tarjetas, setTarjetas] = useState([])
     const [PopupData, setPopupData] = useState(null)
 
-    useEffect(() => {git init
+    useEffect(() => {
 
         axios.get("http://localhost:8000/tarjetas")
         .then(response => {
